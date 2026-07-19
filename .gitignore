@@ -1,0 +1,12 @@
+.DS_Store
+nohup.out
+*.log
+
+# reference captures of the original 1995 software — studied, never redistributed
+ref/
+parity/
+
+# generated guide voice audio (39 MB; regenerate with voices/*.py)
+voices/**/*.wav
+voices/cloned/
+gen/samples/

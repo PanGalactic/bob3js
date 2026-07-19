@@ -1,0 +1,110 @@
+{
+  "rover": {
+    "name": "Rover",
+    "takes": 3,
+    "generated_voice_ids": [
+      "7t0riqGApKbEBRD4z2Gc",
+      "S2KhluZQZeq1yfLpAtXH",
+      "F42yTy3vmS5mHNRGHoK6"
+    ]
+  },
+  "blythe": {
+    "name": "Blythe",
+    "takes": 3,
+    "generated_voice_ids": [
+      "9ZDck6PPJdKBPljGRjir",
+      "Wv3maZ37x9zO5VVyJZcE",
+      "yI7wPK1urUIWyTntwVKD"
+    ]
+  },
+  "chaos": {
+    "name": "Chaos",
+    "takes": 3,
+    "generated_voice_ids": [
+      "qYtlLSjuStH8QuAQDYXl",
+      "nSObuMv35ShDrTIAaHTb",
+      "wnwJnGgtN15cofhDceL4"
+    ]
+  },
+  "hopper": {
+    "name": "Hopper",
+    "takes": 3,
+    "generated_voice_ids": [
+      "fkx72NjwTJO1ZFLSRTcM",
+      "CiEEOKau0lM7j3AMMudd",
+      "9Dd1jZq5f74QddRzg7t4"
+    ]
+  },
+  "java": {
+    "name": "Java",
+    "takes": 3,
+    "generated_voice_ids": [
+      "5PqTD9mgSAvgMdmi33zx",
+      "LFJiGSOUqH5OPncZgoWe",
+      "q5KyRt5qJJ5Yn1Y9NKtI"
+    ]
+  },
+  "orby": {
+    "name": "Orby",
+    "takes": 3,
+    "generated_voice_ids": [
+      "3ctXEBdv4tmWIbEEMwu8",
+      "GGCJBBojbQxd0GMPM13c",
+      "IkwghwbX2UqRtrKuliAC"
+    ]
+  },
+  "ruby": {
+    "name": "Ruby",
+    "takes": 3,
+    "generated_voice_ids": [
+      "aST4ZiOFNmNBLoI383AP",
+      "0gohnNXrcPnXvMX01TS3",
+      "aiCTCTPNhfWD1sE3ogR1"
+    ]
+  },
+  "scuzz": {
+    "name": "Scuzz",
+    "takes": 3,
+    "generated_voice_ids": [
+      "nI1uxFkFxOXaF8XQqTFe",
+      "3gEOUhIBLeqpBn1tybwK",
+      "k1LwOx3psrXj9Y5jgHk2"
+    ]
+  },
+  "shelly": {
+    "name": "Shelly",
+    "takes": 3,
+    "generated_voice_ids": [
+      "S9nhobndwz0bMiVdOLcm",
+      "5gZfUxre1k26TzyK04c3",
+      "TZ7wO7bkcn79vp61MfkU"
+    ]
+  },
+  "digger": {
+    "name": "Digger",
+    "takes": 3,
+    "generated_voice_ids": [
+      "bNb2iXDlhqXXsS83H2GC",
+      "8tgvLjbzvka0rOSttdNX",
+      "E2DbXJLfT2x0rVMmlZHr"
+    ]
+  },
+  "speaker": {
+    "name": "Speaker",
+    "takes": 3,
+    "generated_voice_ids": [
+      "poXMNpHg9UhSm3yujOFM",
+      "ZfYxA4yfSuwxX9zXg4pW",
+      "RiE6kaj01p4y45GB5a4p"
+    ]
+  },
+  "invisible": {
+    "name": "Invisible Guide",
+    "takes": 3,
+    "generated_voice_ids": [
+      "QJidrM4fLPBCKW7hqR3V",
+      "IEz8VIx9fdCwWGjsxqLH",
+      "Fkyk51FNa8QrjMbPGTFL"
+    ]
+  }
+}

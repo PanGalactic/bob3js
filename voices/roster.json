@@ -1,0 +1,76 @@
+{
+  "characters": [
+    {
+      "key": "rover",
+      "name": "Rover",
+      "prompt": "Adult male dog with a warm, eager mid-high pitch and soft, golden, slightly panting timbre. Friendly suburban Midwestern American accent. Wholesome, devoted, and visibly delighted to help, with smiling vowels, buoyant emphasis, and an attentive conversational cadence that occasionally accelerates with canine excitement.",
+      "line": "Oh, scrumptious! I can fetch your letters, find the calendar, or guide you from room to room in this friendly computer house. Just point, and I'll be right beside you!"
+    },
+    {
+      "key": "blythe",
+      "name": "Blythe",
+      "prompt": "Mature female ladybug with a light, precise mezzo-soprano and polished, bell-like timbre. Cultivated Southern English accent with crisp consonants. Well-read, tidy, and quietly delightful, speaking in gracefully balanced phrases with literary poise, careful pauses, and a restrained sparkle of scholarly enthusiasm.",
+      "line": "Let us put your correspondence in the writing room and your appointments neatly upon the calendar. A well-ordered computer house, like a well-ordered sentence, makes every useful thing considerably easier to find."
+    },
+    {
+      "key": "chaos",
+      "name": "Chaos",
+      "prompt": "Adult male cat with a low, velvety pitch and dry, faintly raspy timbre. Lazy metropolitan New York accent. Aloof, sardonic, and effortlessly self-possessed, drawing out vowels and leaving skeptical pauses between short observations; rarely raises his voice and sounds perpetually unconvinced by urgency.",
+      "line": "Your files are probably in the study, assuming nobody moved them for sport. I can show you around this computer house, but I make no promises about the printer, the mouse, or anything else."
+    },
+    {
+      "key": "hopper",
+      "name": "Hopper",
+      "prompt": "Young male rabbit with a very high pitch, bright nasal timbre, and barely contained breathlessness. Fast inland Northern American accent. Hyperactive, excitable, and relentlessly optimistic, firing words in rapid bursts, bouncing between emphatic peaks, gulping tiny breaths, and treating every simple task like a thrilling race.",
+      "line": "Need the calendar, address book, letter desk, or something else? Hop after me through the computer house and we'll find it, open it, finish it, and bounce to the next thing!"
+    },
+    {
+      "key": "java",
+      "name": "Java",
+      "prompt": "Adult female dragon with a smoky contralto, rough ember-edged timbre, and compact vocal resonance. Wry Welsh accent with lightly rolled consonants. Competitive, canny, and proud of her fire, speaking at a measured pace with sly downward inflections, occasional smoky chuckles, and possessive emphasis around valuables.",
+      "line": "The study holds your documents, while the treasure room keeps valuable files safely hoarded. I can guide you through this computer house, provided nobody expects me to share my gold or demonstrate a lesser flame."
+    },
+    {
+      "key": "orby",
+      "name": "Orby",
+      "prompt": "Ageless and androgynous planet with a gentle mid-range pitch, rounded resonant timbre, and subtle airy overtones. Soft Transatlantic accent with worldly clarity. Serene, cosmic, and benevolently awestruck, speaking in spacious arcs with long calming pauses and delicate emphasis, as though contemplating continents between sentences.",
+      "line": "Across this little computer house, each room is a world of its own. I can orbit the calendar, illuminate your letters, and help you discover where every earthly file has come to rest."
+    },
+    {
+      "key": "ruby",
+      "name": "Ruby",
+      "prompt": "Adult female parrot with a piercing high pitch, brassy nasal timbre, and sharp squawking attacks. Broad Australian accent. Loud, brash, mischievous, and compulsively repetitive, delivering clipped phrases in sudden rhythmic bursts, echoing key words at higher volume, and ending excited lines with rasping avian flourishes.",
+      "line": "Letters in the writing room! Writing room, writing room! I'll squawk directions through the computer house, shout out your calendar, and tell you where the files are hiding, whether they like it or not!"
+    },
+    {
+      "key": "scuzz",
+      "name": "Scuzz",
+      "prompt": "Older male rat with a low pitch, gravel-scoured timbre, and tight, wiry resonance. Streetwise Brooklyn accent with dropped endings and hard consonants. Suspicious, thrifty, and quick-witted, speaking in compact muttered runs, counting under his breath, stressing prices, and finishing advice with a knowing rasp.",
+      "line": "I know every shortcut through the walls of this computer house, and they don't cost a dime. I'll find your bills, files, and address book, but we're saving every click, see? Every last click."
+    },
+    {
+      "key": "shelly",
+      "name": "Shelly",
+      "prompt": "Elderly female turtle with a low, mellow pitch and dry, weathered timbre. Gentle upper-class South African accent shaped by decades of travel. Patient, steady, and warmly observant, speaking very slowly in broad phrases, pausing comfortably before important nouns, and never sounding hurried by clocks or impatient users.",
+      "line": "We shall reach the calendar room in good time, just as I once reached Zanzibar. Follow me steadily through this computer house, and I will help you locate your letters, contacts, and carefully packed files."
+    },
+    {
+      "key": "digger",
+      "name": "Digger",
+      "prompt": "Middle-aged male earthworm with a warm low-mid pitch, soft muddy timbre, and slightly muffled resonance as if speaking through loose soil. Rural West Country English accent. Earthy, homely, and cheerful, ambling through sentences with rounded vowels, gentle chuckles, and practical emphasis on simple, grounded solutions.",
+      "line": "Down here, every room in the computer house has good foundations and a handy way in. I'll help dig up your files, plant an appointment, or wriggle over to the writing desk."
+    },
+    {
+      "key": "speaker",
+      "name": "Speaker",
+      "prompt": "Sexless electronic announcer with a fixed mid-low pitch, boxy metallic timbre, narrow bandwidth, and no regional accent. Flat, robotic, literal, and strictly functional, using perfectly clipped consonants, evenly timed phrases, abrupt pauses, minimal pitch movement, and the impersonal authority of a household public-address system.",
+      "line": "Navigation request accepted. I will identify rooms, open household computer tools, and direct you to mail, calendar, contacts, or stored files. Select a destination. Await further instruction."
+    },
+    {
+      "key": "invisible",
+      "name": "Invisible Guide",
+      "prompt": "Adult male unseen presence with a quiet mid-high pitch, pale breathy timbre, and faint spectral reverb. Understated Irish accent. Dry, deadpan, and only slightly amused, speaking in measured conversational phrases with immaculate timing, soft trailing endings, and pauses that imply an invisible raised eyebrow.",
+      "line": "I can guide you through every room in this computer house, although pointing may prove visually unconvincing. Ask for the calendar, letters, or files, and I shall appear helpful without technically appearing at all."
+    }
+  ]
+}

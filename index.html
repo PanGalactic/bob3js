@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Microsoft Bob 3D — a three.js tribute</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23ffd41e' stroke='%23111' stroke-width='4'/%3E%3Cpath d='M20 40 q8 -10 20 -8 q10 2 12 10 q-12 6 -22 2 q-8 -2 -10 -6z' fill='none' stroke='%23111' stroke-width='5'/%3E%3Cpath d='M80 40 q-8 -10 -20 -8 q-10 2 -12 10 q12 6 22 2 q8 -2 10 -6z' fill='none' stroke='%23111' stroke-width='5'/%3E%3Cpath d='M28 62 q22 22 44 0' fill='none' stroke='%23111' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/bob.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "./lib/three.module.js",
+    "three/addons/": "./lib/addons/"
+  }
+}
+</script>
+</head>
+<body>
+
+<!-- ══════════ BOOT SPLASH ══════════ -->
+<div id="splash">
+  <div class="splash-logo">
+    <span class="splash-b">B</span>
+    <svg class="splash-face" viewBox="0 0 200 200" aria-label="Bob smiley">
+      <defs>
+        <radialGradient id="faceGrad" cx="38%" cy="32%" r="80%">
+          <stop offset="0%" stop-color="#ffe95e"/>
+          <stop offset="55%" stop-color="#ffd41e"/>
+          <stop offset="100%" stop-color="#e8a500"/>
+        </radialGradient>
+      </defs>
+      <circle cx="100" cy="100" r="92" fill="url(#faceGrad)" stroke="#1a1a1a" stroke-width="5"/>
+      <!-- nerd glasses -->
+      <path d="M28 74 q10 -14 34 -12 q22 2 26 16 q3 10 -4 14 q-10 6 -26 4 q-20 -2 -28 -12 q-4 -6 -2 -10 Z"
+            fill="none" stroke="#1a1a1a" stroke-width="9" stroke-linejoin="round"/>
+      <path d="M172 74 q-10 -14 -34 -12 q-22 2 -26 16 q-3 10 4 14 q10 6 26 4 q20 -2 28 -12 q4 -6 2 -10 Z"
+            fill="none" stroke="#1a1a1a" stroke-width="9" stroke-linejoin="round"/>
+      <path d="M88 72 h24" stroke="#1a1a1a" stroke-width="8"/>
+      <path d="M20 70 l14 2 M180 70 l-14 2" stroke="#1a1a1a" stroke-width="8"/>
+      <!-- eyes behind lenses -->
+      <ellipse cx="62" cy="80" rx="7" ry="10" fill="#7a3c00"/>
+      <ellipse cx="138" cy="80" rx="7" ry="10" fill="#7a3c00"/>
+      <!-- smile -->
+      <path d="M48 128 q52 44 104 0 q-10 10 -20 16 q-34 20 -66 -2 q-12 -8 -18 -14 Z" fill="#1a1a1a"/>
+    </svg>
+    <span class="splash-b">B</span>
+  </div>
+  <div class="splash-home"><span class="splash-ms">Microsoft</span><span class="splash-hm">Home</span></div>
+  <div class="splash-version">
+    Bob Home 3D<br>
+    Version 1.0<br>
+    A tribute in three.js<br>
+    Inspired by Microsoft Bob (1995)<br>
+    Reimagined by Panny (2026)
+  </div>
+  <div class="splash-loading" id="splashLoading">Warming up the house&hellip;</div>
+</div>
+
+<!-- ══════════ 3D CANVAS ══════════ -->
+<canvas id="scene"></canvas>
+
+<!-- ══════════ 2D OVERLAY (balloons, labels, apps) ══════════ -->
+<div id="overlay">
+  <div id="labels"></div>
+
+  <!-- guide speech balloon, anchored near the guide pedestal -->
+  <div id="balloon" class="balloon hidden">
+    <button id="balloonClose" title="Dismiss">✕</button>
+    <div class="balloon-title" id="balloonTitle"></div>
+    <div class="balloon-body" id="balloonBody"></div>
+    <div class="balloon-options" id="balloonOptions"></div>
+  </div>
+
+  <!-- app windows land here -->
+  <div id="appLayer"></div>
+
+  <!-- EXIT sign, always bottom-right like the original -->
+  <button id="exitSign" class="hidden" title="Exit Bob Home">EXIT</button>
+
+  <!-- push-to-talk: speak to your guide, in their own cloned voice -->
+  <button id="micBtn" class="hidden" data-state="idle">🎤 Hold to talk</button>
+
+  <!-- hint bar -->
+  <div id="hintBar" class="hidden">
+    <b>drag</b> to look around &nbsp;·&nbsp; <b>scroll</b> to zoom &nbsp;·&nbsp; <b>R</b> reset view &nbsp;·&nbsp; <b>F1</b> labels &nbsp;·&nbsp; <b>O</b> options &nbsp;·&nbsp; <b>M</b> move furniture &nbsp;·&nbsp; click objects to start programs
+  </div>
+</div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
